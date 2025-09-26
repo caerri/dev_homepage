@@ -1,0 +1,26 @@
+<!-- app/views/home/index.html.erb -->
+
+<%= stylesheet_link_tag "home", "data-turbo-track": "reload" %>
+
+<div class="landing">
+  <header class="hero">
+    <h1 class="bounce-title">Carrie Snow</h1>
+    <p>Sandboxes</p>
+    <nav>
+      <ul class="hero-nav">
+        <li><%= link_to "Typescript", "#" %></li>
+        <li><%= link_to "Node.js", "#" %></li>
+        <li><%= link_to "GraphQL", "#" %></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="about">
+    <h2>What I’m <s>Building</s> Breaking</h2>
+    <p>Everything.</p>
+  </section>
+
+  <footer class="site-footer">
+    <p>&copy; <%= Time.now.year %> Umyeah. Cuz I'm sure you want this.</p>
+  </footer>
+</div>
